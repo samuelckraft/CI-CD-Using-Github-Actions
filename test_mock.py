@@ -27,4 +27,4 @@ def test_sum(client, mocker):
     assert data['result'] == num1+num2
 
 if __name__ == '__main__':
-    pytest.main([__file__]) #runs all tests
+    pytest.main([__file__])
