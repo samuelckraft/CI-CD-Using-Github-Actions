@@ -32,4 +32,4 @@ jobs:
       - name: run tests
         run: |
           python -m pytest test_mock.py
-          python -m unittest "test_*.py"
+          python -m unittest test_app.py
